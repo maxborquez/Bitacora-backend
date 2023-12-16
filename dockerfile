@@ -25,6 +25,7 @@ RUN git clone https://github.com/maxborquez/Bitacora-backend.git .
 COPY .env /usr/src/app/.env
 
 # Instalar las dependencias de Node.js para tu aplicación
+RUN npx prisma generate
 RUN npm install
 RUN npm install -g nodemon
 
