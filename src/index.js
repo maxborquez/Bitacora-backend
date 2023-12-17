@@ -56,7 +56,7 @@ app.use('/api/conocimiento', routerConocimiento)
 
 
 
-app.listen(3000,()=>{
-    console.log(`El servidor está escuchando en el puerto ${3000}`)
+app.listen(process.env.PORT,()=>{
+    console.log(`El servidor está escuchando en el puerto ${process.env.PORT}`)
 })
 
