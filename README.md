@@ -1,6 +1,6 @@
 # Bitacora-backend
 
-#git y curl
+# git
 
 Es fundamental instalar git para poder clonar el repositorio
 
